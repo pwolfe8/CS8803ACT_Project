@@ -1,4 +1,0 @@
-module tanh(z, z_out);
-
-
-endmodule
