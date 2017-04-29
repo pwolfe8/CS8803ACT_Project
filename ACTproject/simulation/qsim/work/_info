@@ -1,0 +1,264 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim
+vrnn
+!s110 1493048270
+!i10b 1
+!s100 N@gJ7Yj_SEaEchgSi;^903
+IhIKil@`GHjk1?NCEf]U=d1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1493048270
+Z2 8rnn.vo
+Z3 Frnn.vo
+Z4 L0 32
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1493048270.000000
+Z6 !s107 rnn.vo|
+Z7 !s90 -work|work|rnn.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+vrnn_cell
+Z10 !s110 1493446260
+!i10b 1
+!s100 QE1PC6WB:mZOB@al>ncHM0
+ISP;lW_`dC4]eDFXn;LKH[3
+R1
+Z11 dW:/CS8803ACT_Project/ACTproject/simulation/qsim
+w1493446259
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1493446260.000000
+R6
+R7
+!i113 1
+R8
+R9
+vrnn_cell_vlg_vec_tst
+R10
+!i10b 1
+!s100 C9CE:>naUOUE7[=BhHKFj3
+I47[XkIC_<dgUS6iMAeEgX1
+R1
+R11
+w1493446258
+8VariableInputAdd_test.vwf.vt
+FVariableInputAdd_test.vwf.vt
+Z13 L0 30
+R5
+r1
+!s85 0
+31
+R12
+!s107 VariableInputAdd_test.vwf.vt|
+!s90 -work|work|VariableInputAdd_test.vwf.vt|
+!i113 1
+R8
+R9
+vrnn_vlg_vec_tst
+!s110 1493048271
+!i10b 1
+!s100 dX?BG1Zg9J;jkd[N?h0YC1
+IXQ^<bDOzgHkGgF3oiTX`O0
+R1
+R0
+w1493048269
+8twoRNNback2back.vwf.vt
+FtwoRNNback2back.vwf.vt
+R13
+R5
+r1
+!s85 0
+31
+!s108 1493048271.000000
+!s107 twoRNNback2back.vwf.vt|
+!s90 -work|work|twoRNNback2back.vwf.vt|
+!i113 1
+R8
+R9
+vsigmoid
+Z14 !s110 1493045650
+!i10b 1
+!s100 9mCh`?nPUKacaGUmR@];83
+I7aGZUNT`BkSKMUXOH89Y:0
+R1
+R0
+w1493045649
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z15 !s108 1493045650.000000
+R6
+R7
+!i113 1
+R8
+R9
+vsigmoid_vlg_vec_tst
+R14
+!i10b 1
+!s100 ?H0dPEPNh@Id@=Ja;3M`j1
+IzB^P?PbGCO^71fMO=daAV2
+R1
+R0
+w1493045648
+8sigmoid_test.vwf.vt
+Fsigmoid_test.vwf.vt
+R13
+R5
+r1
+!s85 0
+31
+R15
+!s107 sigmoid_test.vwf.vt|
+!s90 -work|work|sigmoid_test.vwf.vt|
+!i113 1
+R8
+R9
+vtanh
+Z16 !s110 1492957494
+!i10b 1
+!s100 2N5XT;WATkMUci12^_A483
+ILTRXL922<Ag=n6;Zae`cc3
+R1
+R0
+w1492957493
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z17 !s108 1492957494.000000
+R6
+R7
+!i113 1
+R8
+R9
+vtanh_layer
+Z18 !s110 1492840168
+!i10b 1
+!s100 6Vif;3;j5NhUGHl`IO6hX3
+I4IXKGW1]QaQfEg`O5TKS?3
+R1
+R0
+w1492840167
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z19 !s108 1492840168.000000
+R6
+R7
+!i113 1
+R8
+R9
+vtanh_layer_vlg_vec_tst
+R18
+!i10b 1
+!s100 7RMc<Xn]5:b]^k]1FZ:R<2
+I1eO^Xg7>Uid5<`DGdG1W80
+R1
+R0
+w1492840166
+Z20 8tanh_test.vwf.vt
+Z21 Ftanh_test.vwf.vt
+R13
+R5
+r1
+!s85 0
+31
+R19
+Z22 !s107 tanh_test.vwf.vt|
+Z23 !s90 -work|work|tanh_test.vwf.vt|
+!i113 1
+R8
+R9
+vtanh_vlg_vec_tst
+R16
+!i10b 1
+!s100 ]EM<RE2Jm1J6@ee9o:K4k2
+IFSOGLYlm1k=E6e30YjBd33
+R1
+R0
+w1492957492
+R20
+R21
+R13
+R5
+r1
+!s85 0
+31
+R17
+R22
+R23
+!i113 1
+R8
+R9
+vtwoMultAdd
+Z24 !s110 1493412887
+!i10b 1
+!s100 cfj^[7VY[dLhNMFAYeOAz1
+IA;KiK4MoFoo9<QJ>SB5_X2
+R1
+R0
+w1493412883
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+!s108 1493412886.000000
+R6
+R7
+!i113 1
+R8
+R9
+ntwo@mult@add
+vtwoMultAdd_vlg_vec_tst
+R24
+!i10b 1
+!s100 X?_PSn>QC3YE8ZMT6HgQ03
+I81kE6Eo4J7IzdK[_i^Of]3
+R1
+R0
+w1493412882
+8twoMultAdd_testing.vwf.vt
+FtwoMultAdd_testing.vwf.vt
+R13
+R5
+r1
+!s85 0
+31
+!s108 1493412887.000000
+!s107 twoMultAdd_testing.vwf.vt|
+!s90 -work|work|twoMultAdd_testing.vwf.vt|
+!i113 1
+R8
+R9
+ntwo@mult@add_vlg_vec_tst

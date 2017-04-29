@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at tanh_layer.v(25): always construct contains both blocking and non-blocking assignments File: C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/tanh_layer.v Line: 25

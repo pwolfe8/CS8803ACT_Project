@@ -1,0 +1,201 @@
+Determining the location of the ModelSim executable...
+
+Using: W:\intelFPGA\modelsim_ase\win32aloem
+
+To specify a ModelSim executable directory, select: Tools -> Options -> EDA Tool Options
+Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-Altera will be used.
+
+**** Generating the ModelSim Testbench ****
+
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off rnn -c rnn --vector_source="C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/twoMultAdd_testing.vwf" --testbench_file="C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim/twoMultAdd_testing.vwf.vt"
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+    Info: Copyright (C) 2016  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Intel and sold by Intel or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Fri Apr 28 16:54:40 2017
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off rnn -c rnn --vector_source=C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/twoMultAdd_testing.vwf --testbench_file=C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim/twoMultAdd_testing.vwf.vt
+
+n
+
+Completed successfully. 
+
+Completed successfully. 
+
+**** Generating the functional simulation netlist ****
+
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim/" rnn -c rnn
+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+    Info: Copyright (C) 2016  Intel Corporation. All rights reserved.
+    Info: Your use of Intel Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Intel Program License 
+    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,
+    Info: the Intel MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Intel and sold by Intel or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Fri Apr 28 16:54:42 2017
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim/ rnn -c rnn
+Info (204019): Generated file rnn.vo in folder "C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 606 megabytes
+    Info: Processing ended: Fri Apr 28 16:54:43 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+Completed successfully. 
+
+**** Generating the ModelSim .do script ****
+
+C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim/rnn.do generated.
+
+Completed successfully. 
+
+**** Running the ModelSim simulation ****
+
+W:/intelFPGA/modelsim_ase/win32aloem/vsim -c -do rnn.do
+
+Reading W:/intelFPGA/modelsim_ase/tcl/vsim/pref.tcl
+
+
+# 10.5b
+
+# do rnn.do
+
+# ** Warning: (vlib-34) Library already exists at "work".
+
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:54:46 on Apr 28,2017
+# vlog -work work rnn.vo 
+
+# -- Compiling module twoMultAdd
+
+# 
+# Top level modules:
+# 	twoMultAdd
+# End time: 16:54:47 on Apr 28,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:54:47 on Apr 28,2017
+# vlog -work work twoMultAdd_testing.vwf.vt 
+
+# -- Compiling module twoMultAdd_vlg_vec_tst
+# 
+# Top level modules:
+# 	twoMultAdd_vlg_vec_tst
+# End time: 16:54:47 on Apr 28,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.twoMultAdd_vlg_vec_tst 
+# Start time: 16:54:48 on Apr 28,2017
+# Loading work.twoMultAdd_vlg_vec_tst
+# Loading work.twoMultAdd
+# ** Warning: (vsim-3015) rnn.vo(1135): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult1~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1135): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult1~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1135): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult1~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1135): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult1~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1135): [PCDPC] - Port size (19) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult1~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1135): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult1~8  File: nofile
+# ** Warning: (vsim-3015) (): [PCDPC] - Port size () does not match connection size () for .
+#    Time: 0 ps  Iteration: 0  Protected: /twoMultAdd_vlg_vec_tst/i1/\Mult1~8 // File: nofile
+# ** Warning: (vsim-3015) (): [PCDPC] - Port size () does not match connection size () for .
+#    Time: 0 ps  Iteration: 0  Protected: /twoMultAdd_vlg_vec_tst/i1/\Mult1~8 // File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1567): [PCDPC] - Port size (1) does not match connection size (26) for port 'az'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult0~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1567): [PCDPC] - Port size (16) does not match connection size (18) for port 'bx'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult0~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1567): [PCDPC] - Port size (16) does not match connection size (19) for port 'by'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult0~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1567): [PCDPC] - Port size (1) does not match connection size (18) for port 'bz'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult0~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1567): [PCDPC] - Port size (19) does not match connection size (27) for port 'scanin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult0~8  File: nofile
+# ** Warning: (vsim-3015) rnn.vo(1567): [PCDPC] - Port size (64) does not match connection size (1) for port 'chainin'. The port definition is at: nofile(38).
+#    Time: 0 ps  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst/i1/\Mult0~8  File: nofile
+# ** Warning: (vsim-3015) (): [PCDPC] - Port size () does not match connection size () for .
+#    Time: 0 ps  Iteration: 0  Protected: /twoMultAdd_vlg_vec_tst/i1/\Mult0~8 // File: nofile
+# ** Warning: (vsim-3015) (): [PCDPC] - Port size () does not match connection size () for .
+#    Time: 0 ps  Iteration: 0  Protected: /twoMultAdd_vlg_vec_tst/i1/\Mult0~8 // File: nofile
+# after#25
+# ** Note: $finish    : twoMultAdd_testing.vwf.vt(53)
+#    Time: 1 us  Iteration: 0  Instance: /twoMultAdd_vlg_vec_tst
+# End time: 16:54:49 on Apr 28,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 16
+
+Completed successfully. 
+
+**** Converting ModelSim VCD to vector waveform ****
+
+Reading C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/twoMultAdd_testing.vwf...
+
+Reading C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim/rnn.msim.vcd...
+
+Processing channel transitions... 
+
+Warning: p2[31] - signal not found in VCD.
+
+Warning: p2[30] - signal not found in VCD.
+
+Warning: p2[29] - signal not found in VCD.
+
+Warning: p2[28] - signal not found in VCD.
+
+Warning: p2[27] - signal not found in VCD.
+
+Warning: p2[26] - signal not found in VCD.
+
+Warning: p2[25] - signal not found in VCD.
+
+Warning: p2[24] - signal not found in VCD.
+
+Warning: p1[31] - signal not found in VCD.
+
+Warning: p1[30] - signal not found in VCD.
+
+Warning: p1[29] - signal not found in VCD.
+
+Warning: p1[28] - signal not found in VCD.
+
+Warning: p1[27] - signal not found in VCD.
+
+Warning: p1[26] - signal not found in VCD.
+
+Warning: p1[25] - signal not found in VCD.
+
+Warning: p1[24] - signal not found in VCD.
+
+Writing the resulting VWF to C:/Users/Swacsp/OneDrive/FPGA_stuff/de10nano/ACTproject/simulation/qsim/rnn_20170428165449.sim.vwf
+
+Finished VCD to VWF conversion.
+
+Completed successfully. 
+
+All completed.

@@ -1,0 +1,496 @@
+// Copyright (C) 2016  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "04/29/2017 02:10:58"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          rnn_cell
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module rnn_cell_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clk;
+reg inputs_0_15;
+reg inputs_0_14;
+reg inputs_0_13;
+reg inputs_0_12;
+reg inputs_0_11;
+reg inputs_0_10;
+reg inputs_0_9;
+reg inputs_0_8;
+reg inputs_0_7;
+reg inputs_0_6;
+reg inputs_0_5;
+reg inputs_0_4;
+reg inputs_0_3;
+reg inputs_0_2;
+reg inputs_0_1;
+reg inputs_0_0;
+reg inputs_1_15;
+reg inputs_1_14;
+reg inputs_1_13;
+reg inputs_1_12;
+reg inputs_1_11;
+reg inputs_1_10;
+reg inputs_1_9;
+reg inputs_1_8;
+reg inputs_1_7;
+reg inputs_1_6;
+reg inputs_1_5;
+reg inputs_1_4;
+reg inputs_1_3;
+reg inputs_1_2;
+reg inputs_1_1;
+reg inputs_1_0;
+reg inputs_2_15;
+reg inputs_2_14;
+reg inputs_2_13;
+reg inputs_2_12;
+reg inputs_2_11;
+reg inputs_2_10;
+reg inputs_2_9;
+reg inputs_2_8;
+reg inputs_2_7;
+reg inputs_2_6;
+reg inputs_2_5;
+reg inputs_2_4;
+reg inputs_2_3;
+reg inputs_2_2;
+reg inputs_2_1;
+reg inputs_2_0;
+reg rst;
+// wires                                               
+wire outputs_0_15;
+wire outputs_0_14;
+wire outputs_0_13;
+wire outputs_0_12;
+wire outputs_0_11;
+wire outputs_0_10;
+wire outputs_0_9;
+wire outputs_0_8;
+wire outputs_0_7;
+wire outputs_0_6;
+wire outputs_0_5;
+wire outputs_0_4;
+wire outputs_0_3;
+wire outputs_0_2;
+wire outputs_0_1;
+wire outputs_0_0;
+wire outputs_1_15;
+wire outputs_1_14;
+wire outputs_1_13;
+wire outputs_1_12;
+wire outputs_1_11;
+wire outputs_1_10;
+wire outputs_1_9;
+wire outputs_1_8;
+wire outputs_1_7;
+wire outputs_1_6;
+wire outputs_1_5;
+wire outputs_1_4;
+wire outputs_1_3;
+wire outputs_1_2;
+wire outputs_1_1;
+wire outputs_1_0;
+
+// assign statements (if any)                          
+rnn_cell i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.inputs_0_15(inputs_0_15),
+	.inputs_0_14(inputs_0_14),
+	.inputs_0_13(inputs_0_13),
+	.inputs_0_12(inputs_0_12),
+	.inputs_0_11(inputs_0_11),
+	.inputs_0_10(inputs_0_10),
+	.inputs_0_9(inputs_0_9),
+	.inputs_0_8(inputs_0_8),
+	.inputs_0_7(inputs_0_7),
+	.inputs_0_6(inputs_0_6),
+	.inputs_0_5(inputs_0_5),
+	.inputs_0_4(inputs_0_4),
+	.inputs_0_3(inputs_0_3),
+	.inputs_0_2(inputs_0_2),
+	.inputs_0_1(inputs_0_1),
+	.inputs_0_0(inputs_0_0),
+	.inputs_1_15(inputs_1_15),
+	.inputs_1_14(inputs_1_14),
+	.inputs_1_13(inputs_1_13),
+	.inputs_1_12(inputs_1_12),
+	.inputs_1_11(inputs_1_11),
+	.inputs_1_10(inputs_1_10),
+	.inputs_1_9(inputs_1_9),
+	.inputs_1_8(inputs_1_8),
+	.inputs_1_7(inputs_1_7),
+	.inputs_1_6(inputs_1_6),
+	.inputs_1_5(inputs_1_5),
+	.inputs_1_4(inputs_1_4),
+	.inputs_1_3(inputs_1_3),
+	.inputs_1_2(inputs_1_2),
+	.inputs_1_1(inputs_1_1),
+	.inputs_1_0(inputs_1_0),
+	.inputs_2_15(inputs_2_15),
+	.inputs_2_14(inputs_2_14),
+	.inputs_2_13(inputs_2_13),
+	.inputs_2_12(inputs_2_12),
+	.inputs_2_11(inputs_2_11),
+	.inputs_2_10(inputs_2_10),
+	.inputs_2_9(inputs_2_9),
+	.inputs_2_8(inputs_2_8),
+	.inputs_2_7(inputs_2_7),
+	.inputs_2_6(inputs_2_6),
+	.inputs_2_5(inputs_2_5),
+	.inputs_2_4(inputs_2_4),
+	.inputs_2_3(inputs_2_3),
+	.inputs_2_2(inputs_2_2),
+	.inputs_2_1(inputs_2_1),
+	.inputs_2_0(inputs_2_0),
+	.outputs_0_15(outputs_0_15),
+	.outputs_0_14(outputs_0_14),
+	.outputs_0_13(outputs_0_13),
+	.outputs_0_12(outputs_0_12),
+	.outputs_0_11(outputs_0_11),
+	.outputs_0_10(outputs_0_10),
+	.outputs_0_9(outputs_0_9),
+	.outputs_0_8(outputs_0_8),
+	.outputs_0_7(outputs_0_7),
+	.outputs_0_6(outputs_0_6),
+	.outputs_0_5(outputs_0_5),
+	.outputs_0_4(outputs_0_4),
+	.outputs_0_3(outputs_0_3),
+	.outputs_0_2(outputs_0_2),
+	.outputs_0_1(outputs_0_1),
+	.outputs_0_0(outputs_0_0),
+	.outputs_1_15(outputs_1_15),
+	.outputs_1_14(outputs_1_14),
+	.outputs_1_13(outputs_1_13),
+	.outputs_1_12(outputs_1_12),
+	.outputs_1_11(outputs_1_11),
+	.outputs_1_10(outputs_1_10),
+	.outputs_1_9(outputs_1_9),
+	.outputs_1_8(outputs_1_8),
+	.outputs_1_7(outputs_1_7),
+	.outputs_1_6(outputs_1_6),
+	.outputs_1_5(outputs_1_5),
+	.outputs_1_4(outputs_1_4),
+	.outputs_1_3(outputs_1_3),
+	.outputs_1_2(outputs_1_2),
+	.outputs_1_1(outputs_1_1),
+	.outputs_1_0(outputs_1_0),
+	.rst(rst)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// inputs[0][15]
+initial
+begin
+	inputs_0_15 = 1'b0;
+end 
+
+// inputs[0][14]
+initial
+begin
+	inputs_0_14 = 1'b0;
+end 
+
+// inputs[0][13]
+initial
+begin
+	inputs_0_13 = 1'b0;
+end 
+
+// inputs[0][12]
+initial
+begin
+	inputs_0_12 = 1'b0;
+end 
+
+// inputs[0][11]
+initial
+begin
+	inputs_0_11 = 1'b0;
+end 
+
+// inputs[0][10]
+initial
+begin
+	inputs_0_10 = 1'b0;
+end 
+
+// inputs[0][9]
+initial
+begin
+	inputs_0_9 = 1'b0;
+end 
+
+// inputs[0][8]
+initial
+begin
+	inputs_0_8 = 1'b0;
+end 
+
+// inputs[0][7]
+initial
+begin
+	inputs_0_7 = 1'b0;
+end 
+
+// inputs[0][6]
+initial
+begin
+	inputs_0_6 = 1'b0;
+end 
+
+// inputs[0][5]
+initial
+begin
+	inputs_0_5 = 1'b0;
+end 
+
+// inputs[0][4]
+initial
+begin
+	inputs_0_4 = 1'b0;
+end 
+
+// inputs[0][3]
+initial
+begin
+	inputs_0_3 = 1'b0;
+end 
+
+// inputs[0][2]
+initial
+begin
+	inputs_0_2 = 1'b0;
+end 
+
+// inputs[0][1]
+initial
+begin
+	inputs_0_1 = 1'b0;
+end 
+
+// inputs[0][0]
+initial
+begin
+	inputs_0_0 = 1'b1;
+end 
+
+// inputs[1][15]
+initial
+begin
+	inputs_1_15 = 1'b0;
+end 
+
+// inputs[1][14]
+initial
+begin
+	inputs_1_14 = 1'b0;
+end 
+
+// inputs[1][13]
+initial
+begin
+	inputs_1_13 = 1'b0;
+end 
+
+// inputs[1][12]
+initial
+begin
+	inputs_1_12 = 1'b0;
+end 
+
+// inputs[1][11]
+initial
+begin
+	inputs_1_11 = 1'b0;
+end 
+
+// inputs[1][10]
+initial
+begin
+	inputs_1_10 = 1'b0;
+end 
+
+// inputs[1][9]
+initial
+begin
+	inputs_1_9 = 1'b0;
+end 
+
+// inputs[1][8]
+initial
+begin
+	inputs_1_8 = 1'b0;
+end 
+
+// inputs[1][7]
+initial
+begin
+	inputs_1_7 = 1'b0;
+end 
+
+// inputs[1][6]
+initial
+begin
+	inputs_1_6 = 1'b0;
+end 
+
+// inputs[1][5]
+initial
+begin
+	inputs_1_5 = 1'b0;
+end 
+
+// inputs[1][4]
+initial
+begin
+	inputs_1_4 = 1'b0;
+end 
+
+// inputs[1][3]
+initial
+begin
+	inputs_1_3 = 1'b0;
+end 
+
+// inputs[1][2]
+initial
+begin
+	inputs_1_2 = 1'b0;
+end 
+
+// inputs[1][1]
+initial
+begin
+	inputs_1_1 = 1'b1;
+end 
+
+// inputs[1][0]
+initial
+begin
+	inputs_1_0 = 1'b0;
+end 
+
+// inputs[2][15]
+initial
+begin
+	inputs_2_15 = 1'b0;
+end 
+
+// inputs[2][14]
+initial
+begin
+	inputs_2_14 = 1'b0;
+end 
+
+// inputs[2][13]
+initial
+begin
+	inputs_2_13 = 1'b0;
+end 
+
+// inputs[2][12]
+initial
+begin
+	inputs_2_12 = 1'b0;
+end 
+
+// inputs[2][11]
+initial
+begin
+	inputs_2_11 = 1'b0;
+end 
+
+// inputs[2][10]
+initial
+begin
+	inputs_2_10 = 1'b0;
+end 
+
+// inputs[2][9]
+initial
+begin
+	inputs_2_9 = 1'b0;
+end 
+
+// inputs[2][8]
+initial
+begin
+	inputs_2_8 = 1'b0;
+end 
+
+// inputs[2][7]
+initial
+begin
+	inputs_2_7 = 1'b0;
+end 
+
+// inputs[2][6]
+initial
+begin
+	inputs_2_6 = 1'b0;
+end 
+
+// inputs[2][5]
+initial
+begin
+	inputs_2_5 = 1'b0;
+end 
+
+// inputs[2][4]
+initial
+begin
+	inputs_2_4 = 1'b0;
+end 
+
+// inputs[2][3]
+initial
+begin
+	inputs_2_3 = 1'b0;
+end 
+
+// inputs[2][2]
+initial
+begin
+	inputs_2_2 = 1'b0;
+end 
+
+// inputs[2][1]
+initial
+begin
+	inputs_2_1 = 1'b1;
+end 
+
+// inputs[2][0]
+initial
+begin
+	inputs_2_0 = 1'b1;
+end 
+endmodule
+

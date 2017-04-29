@@ -1,0 +1,265 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "out[12]",
+					"strict" : false
+				},
+				{
+					"name" : "out[13]",
+					"strict" : false
+				},
+				{
+					"name" : "out[14]",
+					"strict" : false
+				},
+				{
+					"name" : "out[15]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][0]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][0]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][0]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][1]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][1]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][1]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][2]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][2]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][2]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][3]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][3]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][3]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][4]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][4]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][4]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][5]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][5]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][5]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][6]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][6]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][6]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][7]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][7]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][7]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][8]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][8]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][8]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][9]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][9]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][9]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][10]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][10]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][10]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][11]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][11]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][11]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][12]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][12]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][12]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][13]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][13]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][13]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][14]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][14]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][14]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[0][15]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[1][15]",
+					"strict" : false
+				},
+				{
+					"name" : "inputs[2][15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
