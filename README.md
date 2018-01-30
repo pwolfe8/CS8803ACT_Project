@@ -1,5 +1,9 @@
 # CS8803ACT Project
 
+- note to self: clean up this project with newly-learned verilog/vhdl organization skills
+
+
+Old Run Instructions (needs to be updated)
 - Open Quartus Project File "rnn.qpf" in Quartus Prime Lite
 - set rnn_cell as top level design if not already
 - double click Analysis & Synthesis
